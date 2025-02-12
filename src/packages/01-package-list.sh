@@ -39,6 +39,7 @@ CONTAINER_PACKAGES=(
 DEV_PACKAGES=(
     "golang"
     "rust"
+    "rust-cargo"
     "build-essential"
     "pkg-config"
     "openssl"
