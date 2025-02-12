@@ -83,6 +83,7 @@ VIRT_PACKAGES=(
 
 # --- Системные библиотеки, инструменты и утилиты ---
 SYSTEM_TOOLS=(
+    "zstd"
     "firmware-linux"
     "fprintd"
     "jq"
