@@ -26,7 +26,7 @@ BASE_UTILS=(
 # --- Пакеты для контейнеров (Docker / Podman / Flatpak и т.д.) ---
 CONTAINER_PACKAGES=(
     "distrobox"
-    "flatpak"
+    "flatpak-repo-flathub"
     "docker-engine"
     "podman"
     "containers-common"
