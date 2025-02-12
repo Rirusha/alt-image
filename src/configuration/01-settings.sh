@@ -28,9 +28,8 @@ echo "readonly = true" >> /usr/lib/ostree/prepare-root.conf
 # Отключаем SELINUX
 echo "SELINUX=disabled" > /etc/selinux/config
 
-# Создаём файл /etc/sudoers.d/allow-wheel-nopass если его нет
-touch /etc/sudoers.d/allow-wheel-nopass
-echo "%wheel ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/allow-wheel-nopass
+# Enable sudo out-of-box
+control sudowheel enabled
 
 # Настройка vconsole
 touch /etc/vconsole.conf
