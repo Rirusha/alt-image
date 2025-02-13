@@ -37,18 +37,15 @@ CONTAINER_PACKAGES=(
 
 # --- Пакеты для разработки: Go, Rust, C/C++, системные dev-библиотеки и т.п. ---
 DEV_PACKAGES=(
+    "libzstd-devel"
     "golang"
     "rust"
     "rust-cargo"
     "build-essential"
     "pkg-config"
-    "openssl"
     "openssl-devel"
-    "glib2"
     "glib2-devel"
-    "glibc-utils"
     "systemd-devel"
-    "libgio"
     "libgio-devel"
     "git"
     "libostree-devel"
@@ -84,7 +81,6 @@ VIRT_PACKAGES=(
 
 # --- Системные библиотеки, инструменты и утилиты ---
 SYSTEM_TOOLS=(
-    "zstd"
     "firmware-linux"
     "fprintd"
     "jq"
